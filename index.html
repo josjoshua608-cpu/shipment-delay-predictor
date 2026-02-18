@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shipment Delay Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚚 Shipment Delay Predictor</h1>
+
+    <input id="origin" placeholder="Origin Port">
+    <input id="destination" placeholder="Destination Port">
+    <input id="carrier" placeholder="Carrier Name">
+    <input id="transit" placeholder="Transit Days">
+
+    <button onclick="predictDelay()">Predict Delay</button>
+
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
