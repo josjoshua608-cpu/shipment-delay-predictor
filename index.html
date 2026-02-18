@@ -17,7 +17,30 @@
 
     <button onclick="predictDelay()">Predict Delay</button>
 
-    <h2 id="result"></h2>
+    <div id="result"></div>
+
+<div class="meter-container">
+  <div class="meter-bar">
+    <div id="meterFill" class="meter-fill"></div>
+  </div>
+</div>
+
+<div id="aiNote" class="ai-note"></div>
+
+<h3>📊 Prediction History</h3>
+<table class="history-table">
+  <thead>
+    <tr>
+      <th>Origin</th>
+      <th>Destination</th>
+      <th>Carrier</th>
+      <th>Transit</th>
+      <th>Risk</th>
+    </tr>
+  </thead>
+  <tbody id="historyBody"></tbody>
+</table>
+
   </div>
 
   <script src="script.js"></script>
