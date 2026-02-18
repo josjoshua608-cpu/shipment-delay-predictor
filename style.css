@@ -96,3 +96,10 @@ button:hover {
 .history-table th {
   background: #f0f0f0;
 }
+.history-table tbody tr:hover {
+  background: #f7faff;
+}
+
+.result-card h3 {
+  margin-bottom: 6px;
+}
