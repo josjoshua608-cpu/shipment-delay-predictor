@@ -1,5 +1,4 @@
 // TEST CHANGE
-
 function predictDelay() {
   const origin = document.getElementById("origin").value.trim();
   const destination = document.getElementById("destination").value.trim();
